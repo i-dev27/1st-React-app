@@ -7,13 +7,16 @@ import "../styles.css"
 function Header () {
     return (
         <div>
-        <header className="main">Welcome to My Site!</header>
-        <ul>
-            <li>Home</li>
+        <header>
+        
+        <div className="navigation">       
+             <ul>
+            <li><a href=".">Home</a></li>
             <li>About</li>
-            <li>Check it out!</li>
+            <li>Contact</li>
         </ul>
-
+        </div>
+        </header>
 </div>
     )
 }

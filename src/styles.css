@@ -1,15 +1,53 @@
 
 
+*  {
+    box-sizing: border-box;
+    
+    }
+
+
+body {
+
+    margin: 0;
+}
 
 
 /* header component  */
 
-.main {
-    font-family: cursive;
-    color: blue;
-    text-align: center;
-    
 
+
+.navigation  {
+    
+    position: relative;
+    display: flex;
+    justify-content: right;
+   
+    text-align: left;
+    
+    font-size: 15px;
+    list-style: none;
+
+    background-image: linear-gradient(rgb(9, 71, 87),rgb(18, 123, 141));
+    
+    
+    
+}
+
+.navigation ul {
+    margin-right: 90px;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    font-family: monospace;
+    color: white;
+}
+
+.navigation ul li a {
+    cursor: grab;
+    margin-right: ;
 }
 
 
@@ -17,5 +55,14 @@
 
 
 .small {
-    background-color: green;
+    
+    
+    font-family: fantasy;
+    color: green;
+    display: flex;
+    justify-content: right;
+    
+
+    
+    
 }
