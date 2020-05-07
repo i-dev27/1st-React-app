@@ -9,11 +9,12 @@ function Header () {
         <div>
         <header>
         
-        <div className="navigation">       
+        <div className="navigation">  
+           
              <ul>
             <li><a href=".">Home</a></li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href=".">About</a></li>
+            <li><a href=".">Contact us</a></li>
         </ul>
         </div>
         </header>
