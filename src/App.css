@@ -2,9 +2,7 @@
 
 *  {
     box-sizing: border-box;
-    
-    }
-
+}
 
 body {
 
@@ -14,13 +12,11 @@ body {
 
 /* header component  */
 
-
-
 .navigation   {
     
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     
     font-size: 20px;
     list-style: none;
@@ -57,25 +53,33 @@ body {
         color :white;
 }
 
-h1 {
-    font-family: fantasy;
-    color: rgb(15, 15, 116);
-    text-align: center;
+
 
 
     /* cards */
+
+    
+    
+ .container {
+    margin: 0 auto;
+    
 }
 
-div.container {
-    margin: 0;
-    padding: 0;
-    display: inline;
+.container h1 {
+    
+    text-align: left;
+    padding: auto;
+    margin: 60px;
+    font-family: fantasy;
+    color: rgb(15, 15, 116);
+     
 }
 
 div.card {
-    margin-left: 40px;
-    margin-top: 20px;
-    display: inline-block;
+    
+   display: inline-flex;
+   justify-content: center;
+    
 
 }
 
@@ -89,15 +93,10 @@ div.card-title.h5 {
 
 
 
-.Footer {
+.footer {
     
-    
-    font-family: fantasy;
-    color: green;
     display: flex;
     justify-content: center;
-    
-
-    
-    
+    font-family: fantasy;
+    color: green;
 }

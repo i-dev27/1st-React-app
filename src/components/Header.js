@@ -1,27 +1,65 @@
 
 import React from "react"
-import "../styles.css"
+import "../App.css"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 
 
 function Header () {
     return (
-        <div>
-        <header>
-        
+
+        <Router>
+    
         <div className="navigation">  
-           
+           <nav>
              <ul>
-            <li><a href=".">Home</a></li>
-            <li><a href=".">About</a></li>
-            <li><a href=".">Contact us</a></li>
+            <li>
+                <Link to="/">Home</Link>
+            </li>
+            <li>
+                <Link to="/about">About</Link>
+                </li>
+            <li>
+                <Link to="/contact">contact</Link>
+                </li>
         </ul>
+        </nav>
+        <Switch>
+          <Route path="/contact">
+           
+          </Route>
+          <Route path="/about">
+            
+          </Route>
+          <Route path="/">
+            
+          </Route>
+        </Switch>
         </div>
-        </header>
-</div>
+
+
+        </Router>
     )
 }
 
+function Home() {
+    return <h2>Home</h2>;
+  }
+  
+  function About() {
+    return <h2>About</h2>;
+  }
+  
+  function contact() {
+    return <h2>contact</h2>;
+  }
+  
+  
 
 
 

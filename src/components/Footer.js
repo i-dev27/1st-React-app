@@ -2,14 +2,14 @@
 import React from "react"
 
 
-function Footer (){
+function footer (){
     return (
         <footer>
-            <h3 className="Footer">CopyRights 2020!</h3>
+            <h3 className="footer">CopyRights 2020!</h3>
         </footer>
     )
 }
 
 
 
-export default Footer;
+export default footer;
